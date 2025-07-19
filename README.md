@@ -30,10 +30,13 @@ Simple Greeks Learning Project/
 ## Core Mathematical Concepts
 
 **First Principles:**
-- **Delta (Δ)** = ∂C/∂S - Rate of option price change vs. stock price  
-- **Gamma (Γ)** = ∂²C/∂S² = ∂Δ/∂S - Rate of delta change vs. stock price
-- **Theta (Θ)** = ∂C/∂t - Rate of option price change vs. time
-- **Vega (ν)** = ∂C/∂σ - Rate of option price change vs. volatility
+$$\text{Delta } (\Delta) = \frac{\partial C}{\partial S} \text{ - Rate of option price change vs. stock price}$$
+
+$$\text{Gamma } (\Gamma) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta}{\partial S} \text{ - Rate of delta change vs. stock price}$$
+
+$$\text{Theta } (\Theta) = \frac{\partial C}{\partial t} \text{ - Rate of option price change vs. time}$$
+
+$$\text{Vega } (\nu) = \frac{\partial C}{\partial \sigma} \text{ - Rate of option price change vs. volatility}$$
 
 **Synthetic Data Challenges:**
 - Random noise amplification in second derivatives
