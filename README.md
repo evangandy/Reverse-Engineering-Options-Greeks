@@ -30,6 +30,7 @@ Simple Greeks Learning Project/
 ## Core Mathematical Concepts
 
 **First Principles:**
+
 $$\text{Delta } (\Delta) = \frac{\partial C}{\partial S} \text{ - Rate of option price change vs. stock price}$$
 
 $$\text{Gamma } (\Gamma) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta}{\partial S} \text{ - Rate of delta change vs. stock price}$$
