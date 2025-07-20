@@ -1,6 +1,6 @@
 def calculate_delta(s1, s2, o1, o2):
     """
-    Calculate delta as the ratio of option price change to stock price change.
+    Calculate delta as ratio of option price change to stock price change.
     
     Args:
         s1: Initial stock price
