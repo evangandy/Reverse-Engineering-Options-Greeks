@@ -21,10 +21,10 @@ Simple Greeks Learning Project/
 │   ├── 02_gamma.ipynb     ✅ Gamma (Γ) - Second derivative sensitivity  
 │   ├── 03_theta.ipynb     ✅ Theta (Θ) - Time decay modeling
 │   ├── 04_vega.ipynb      ✅ Vega (ν) - Volatility sensitivity
-│   └── 05_rho.ipynb  🔄 Greek interactions & portfolio effects
+│   └── 05_rho.ipynb       🔄 Rho (ρ) - Interest rate sensitivity
 └── src/
-    ├── __init__.py
-    └── formulas.py                     🔄 Core Greek calculation functions
+   ├── __init__.py
+   └── formulas.py        🔄 Core Greek calculation functions
 ```
 
 ## Core Mathematical Concepts
