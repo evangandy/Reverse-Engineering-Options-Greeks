@@ -74,8 +74,6 @@ The least impactful Greek for most trading strategies. Interest rate sensitivity
 
 ## Final Reflections
 
-This project demonstrated that **reverse engineering** complex financial concepts through synthetic data and mathematical modeling creates deeper understanding than traditional textbook approaches. By building each Greek from first principles—starting with simple ratios and evolving into sophisticated derivative relationships—we uncovered the intuitive logic behind options pricing.
-
-The Greeks are no longer mysterious black box formulas—they're logical extensions of basic mathematical relationships that any motivated learner can understand, implement, and apply.
+This project demonstrated that **reverse engineering** complex financial concepts through synthetic data and mathematical modeling creates deeper understanding than traditional textbook approaches. By building each Greek from first principles, starting with simple ratios and evolving into sophisticated derivative relationships, I attempted to uncover the intuitive logic behind options pricing.
 
 *Learning through building beats learning through reading.*
