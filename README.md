@@ -1,4 +1,4 @@
-# Reverse-Engineering-Options-Greeks
+# Simple Greeks Learning Project
 
 > 📚 **Reverse Engineering Options Greeks Through Mathematical Modeling**
 
@@ -43,37 +43,32 @@ $$\text{Rho } (\rho) = \frac{\partial C}{\partial r} \text{ - Rate of option pri
 
 ## Learning Journey & Insights
 
+**Project Complete** Key discoveries from reverse-engineering the Greeks:
+
+## Learning Journey & Insights
+
 **Project Complete!** Key discoveries from reverse-engineering the Greeks:
 
-### 🎯 **Delta (Δ) - The Intuitive Greek**
-- **Most accessible concept**: Simple ratio of option price change to stock price change
-- **Linear relationship**: Direct 1:1 correlation makes it easy to understand and predict
-- **Foundation building**: Perfect starting point for understanding derivative relationships
-- **Practical application**: Immediate hedge ratio calculations for portfolio management
+## Learning Journey & Insights
+
+> *In-depth mathematical modeling and analytical solution learnings are documented in the individual notebooks*
+
+**Project Complete!** Key discoveries from reverse-engineering the Greeks:
+
+### 🎯 **Delta (Δ) - Intuitive Greek**
+The most accessible Greek to understand - a simple ratio showing how option prices move relative to stock prices. When a stock goes up $1, the option moves by the delta amount. This linear relationship makes it easy to build intuition about derivatives and served as good foundation to start this project.
 
 ### ⚡ **Gamma (Γ) - The Sensitivity Amplifier** 
-- **Extremely sensitive**: Second derivative creates rapid acceleration effects
-- **Consistency indicator**: Stable gamma values may signal reliable, well-behaved securities
-- **Risk multiplier**: Small stock moves create disproportionate delta changes
-- **Mathematical insight**: Curvature measurement reveals non-linear option behavior
+Second derivatives reveal the wild, non-linear nature of options. Gamma amplifies everything - tiny stock moves can cause massive delta swings. This extreme sensitivity to market noise taught me that consistent gamma values might indicate well-behaved securities, while erratic gamma signals could be a massive headache in a high pressure trading situation.
 
-### ⏰ **Theta (Θ) - The Time Value Mystery**
-- **Complex time mechanics**: Most mathematically rich Greek involving time value of money
-- **Decay acceleration**: Non-linear time decay patterns create fascinating modeling challenges  
-- **Financial theory intersection**: Deep connections to present value calculations and risk-free rates
-- **Strategic implications**: Time decay strategies form core of many options trading approaches
+### ⏰ **Theta (Θ) - Time Value**
+From my understanding the most mathematically complex Greek, involving intricate time decay mechanics and present value calculations. Theta reveals how options lose value as expiration approaches. The acceleration patterns and connections to risk-free rates make this the most theoretically rich Greek to model.
 
-### 🌊 **Vega (ν) - The High-Leverage Beast**
-- **Maximum leverage potential**: Volatility changes create the largest price swings
-- **Risk amplification**: Volatility and risk are intrinsically linked, making vega dangerous
-- **Market psychology**: Captures fear and greed through uncertainty pricing
-- **Modeling complexity**: Requires sophisticated volatility forecasting and regime detection
+### 🌊 **Vega (ν) - Volatility**
+Volatility changes create the largest price swings, from my learning making vega potentially the most dangerous Greek. Vega could have a range of applications but I thought the most interesting one is as it relates to market psychology.
 
 ### 💤 **Rho (ρ) - The Forgotten Greek**
-- **Least impactful**: Minimal day-to-day relevance for most trading strategies
-- **Interest rate dependency**: Only matters during significant Fed policy changes
-- **Long-term bias**: More relevant for LEAPS and long-dated option strategies
-- **Academic completeness**: Important for theoretical models but practical afterthought
+The least impactful Greek for most trading strategies. Interest rate sensitivity only matters during major Fed policy shifts or for long-dated options. While important for theoretical completeness, rho came across as a academic afterthough.
 
 ---
 
