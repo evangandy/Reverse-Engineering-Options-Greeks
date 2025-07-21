@@ -34,3 +34,21 @@ def calculate_gamma(s1, s2, s3, d1, d2):
     stock_change = s3 - s1
     
     return delta_change / stock_change
+
+def calculate_rho(r1, r2, o1, o2):
+    """
+    Calculate rho as the rate of change of option price with respect to interest rate.
+    
+    Args:
+        r1: Initial interest rate (as decimal, e.g., 0.05 for 5%)
+        r2: Final interest rate (as decimal, e.g., 0.06 for 6%)
+        o1: Initial option price
+        o2: Final option price
+    
+    Returns:
+        The calculated rho value
+    """
+    rate_change = r2 - r1
+    option_change = o2 - o1
+    
+    return option_change / rate_change
