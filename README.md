@@ -1,4 +1,4 @@
-# Simple Greeks Learning Project
+# Reverse Engineering Options Greeks
 
 > 📚 **Reverse Engineering Options Greeks Through Mathematical Modeling**
 
@@ -17,11 +17,11 @@
 Simple Greeks Learning Project/
 ├── README.md
 ├── notebooks/
-│   ├── 01_delta.ipynb     ✅ Delta (Δ) - First derivative basics
-│   ├── 02_gamma.ipynb     ✅ Gamma (Γ) - Second derivative sensitivity  
-│   ├── 03_theta.ipynb     ✅ Theta (Θ) - Time decay modeling
-│   ├── 04_vega.ipynb      ✅ Vega (ν) - Volatility sensitivity
-│   └── 05_rho.ipynb       ✅ Rho (ρ) - Interest rate sensitivity
+│   ├── 01_delta.ipynb     ✅ Delta (Δ)
+│   ├── 02_gamma.ipynb     ✅ Gamma (Γ)
+│   ├── 03_theta.ipynb     ✅ Theta (Θ)
+│   ├── 04_vega.ipynb      ✅ Vega (ν)
+│   └── 05_rho.ipynb       ✅ Rho (ρ)
 └── src/
    ├── __init__.py
    └── formulas.py        ✅ Core Greek calculation functions
@@ -43,14 +43,6 @@ $$\text{Rho } (\rho) = \frac{\partial C}{\partial r} \text{ - Rate of option pri
 
 ## Learning Journey & Insights
 
-**Project Complete** Key discoveries from reverse-engineering the Greeks:
-
-## Learning Journey & Insights
-
-**Project Complete!** Key discoveries from reverse-engineering the Greeks:
-
-## Learning Journey & Insights
-
 > *In-depth mathematical modeling and analytical solution learnings are documented in the individual notebooks*
 
 **Project Complete!** Key discoveries from reverse-engineering the Greeks:
@@ -62,13 +54,13 @@ The most accessible Greek to understand - a simple ratio showing how option pric
 Second derivatives reveal the wild, non-linear nature of options. Gamma amplifies everything - tiny stock moves can cause massive delta swings. This extreme sensitivity to market noise taught me that consistent gamma values might indicate well-behaved securities, while erratic gamma signals could be a massive headache in a high pressure trading situation.
 
 ### ⏰ **Theta (Θ) - Time Value**
-From my understanding the most mathematically complex Greek, involving intricate time decay mechanics and present value calculations. Theta reveals how options lose value as expiration approaches. The acceleration patterns and connections to risk-free rates make this the most theoretically rich Greek to model.
+The most mathematically complex Greek, involving intricate time decay mechanics and present value calculations. Theta reveals how options lose value as expiration approaches. The acceleration patterns and connections to risk-free rates make this the most theoretically rich Greek to model.
 
 ### 🌊 **Vega (ν) - Volatility**
-Volatility changes create the largest price swings, from my learning making vega potentially the most dangerous Greek. Vega could have a range of applications but I thought the most interesting one is as it relates to market psychology.
+Volatility changes create the largest price swings, making vega potentially the most dangerous Greek. Vega could have a range of applications but I thought the most interesting one is as it relates to market psychology.
 
 ### 💤 **Rho (ρ) - The Forgotten Greek**
-The least impactful Greek for most trading strategies. Interest rate sensitivity only matters during major Fed policy shifts or for long-dated options. While important for theoretical completeness, rho came across as a academic afterthough.
+The least impactful Greek for most trading strategies. Interest rate sensitivity only matters during major Fed policy shifts or for long-dated options. While important for theoretical completeness, rho came across as an academic afterthought.
 
 ---
 
