@@ -17,11 +17,11 @@
 Simple Greeks Learning Project/
 ├── README.md
 ├── notebooks/
-│   ├── 01_delta_exploration.ipynb     ✅ Delta (Δ) - First derivative basics
-│   ├── 02_gamma_exploration.ipynb     ✅ Gamma (Γ) - Second derivative sensitivity  
-│   ├── 03_theta_exploration.ipynb     ✅ Theta (Θ) - Time decay modeling
-│   ├── 04_vega_exploration.ipynb      🔄 Vega (ν) - Volatility sensitivity
-│   └── 05_multi_greek_analysis.ipynb  📋 Greek interactions & portfolio effects
+│   ├── 01_delta.ipynb     ✅ Delta (Δ) - First derivative basics
+│   ├── 02_gamma.ipynb     ✅ Gamma (Γ) - Second derivative sensitivity  
+│   ├── 03_theta.ipynb     ✅ Theta (Θ) - Time decay modeling
+│   ├── 04_vega.ipynb      ✅ Vega (ν) - Volatility sensitivity
+│   └── 05_rho.ipynb  🔄 Greek interactions & portfolio effects
 └── src/
     ├── __init__.py
     └── formulas.py                     🔄 Core Greek calculation functions
