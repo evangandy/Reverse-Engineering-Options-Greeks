@@ -1,0 +1,15 @@
+# Required packages for Reverse Engineering Options Greeks project
+
+# Data manipulation and numerical computing
+numpy>=1.21.0
+
+# Plotting and visualization
+matplotlib>=3.5.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Additional useful packages for financial analysis
+pandas>=1.3.0  # For data analysis (may be useful for future enhancements)
+scipy>=1.7.0   # For advanced mathematical functions
