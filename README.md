@@ -1,4 +1,4 @@
-# Simple Greeks Learning Project
+# Reverse-Engineering-Options-Greeks
 
 > 📚 **Reverse Engineering Options Greeks Through Mathematical Modeling**
 
